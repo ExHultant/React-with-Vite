@@ -28,8 +28,8 @@ export const NavBar = () => {
         </li>
         <li>
           <NavLink
-            to="/clothing"
-            onClick={() => context.setSearchByCategory("clothing")}
+            to="/clothes"
+            onClick={() => context.setSearchByCategory("clothes")}
             style={({ isActive }) => {
               return {
                 textDecorationLine: isActive ? "underline" : "",

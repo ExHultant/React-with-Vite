@@ -61,7 +61,7 @@ export const CheckoutSideMenu = () => {
         <p className="flex justify-between items-center mb-2">
           <span className="font-semibold text-xl">Total:</span>
           <span className="font-bold text-2xl">
-            ${totalPrice(context.cartProducts.length)}
+            ${totalPrice(context.cartProducts)}
           </span>
         </p>
         <Link to="/my-orders/last">
